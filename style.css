@@ -1,8 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+
 header{
     width: 1600px;
     height: 674px;
@@ -10,13 +6,7 @@ header{
     justify-content: center;
     align-items: center; 
     border: 2px solid skyblue;
-}
-  /* .banner-image{
-    height: 674px ;
-    width: 1600px;
-   } */
-
-    
+}    
 .font family inter> {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -40,7 +30,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    margin-top: 20px;
    
  
 }
@@ -65,9 +55,11 @@ div .banner-content{
     border-radius: 20px;
     color: green;
 }
-h1{
-    /* width: 770 px;
-    height: 168px; */
+.text{
+    color: white;
+}
+.font-green{
+    color: green;
 }
 .btn23{
     width: 465px ;
@@ -91,4 +83,71 @@ border-radius: 5px;
    border-radius: 5px solid white;
    background-color: rgb(59, 59, 63); 
    opacity: 100%;
+}
+/* section notes */
+.notes{
+    height: 448px;
+    background-color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+    /* margin-left: 120px; */
+    
+}
+.notetext{
+text-align: center;
+}
+.card{
+    height: 300px;
+    width:1360px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border: 10px solid white;
+    box-shadow: inset;
+   
+}
+.card1{
+    width: 340px;
+    height: 300px;
+    border: 1px solid rgb(238, 233, 233);
+    border-radius: round;
+     text-align: center;
+}
+.card2{
+    width: 340px;
+    height: 300px;
+    border: 1px solid rgb(238, 233, 233);
+    border-radius: round;
+     text-align: center;
+
+}
+.card3{
+    width: 340px;
+    height: 300px;
+    border: 1px solid rgb(238, 233, 233);
+    border-radius: round;
+     text-align: center;
+    
+}
+.card4{
+    width: 340px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid rgb(238, 233, 233);
+    border-radius: round;
+    
+}
+.ichon{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin: auto;
+   border: 2px orangered;
+    background-color: orangered;
+    margin-top: 60px;  
+}
+.ichon img{
+    text-align: justify;
 }

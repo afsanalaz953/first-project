@@ -240,10 +240,44 @@ gap: 16px;
     background-color: green;
     border-radius: 10px;
     color: white;
+    
 }
 .ready-button p{
     width: 1280px;
     height: 20px;
+}
+#footer{
+    width: 1600px;
+    height: 348px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer{
+    width: 1360px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 120px;
+}
+.social{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.copy-right{
+    height:54px ;
+    width: 1360px;
+    
 }
 
 

@@ -34,7 +34,7 @@ nav{
    
  
 }
-div ul{
+.menu{
     display: flex;
    list-style: none;
      gap: 34px; 
@@ -87,15 +87,19 @@ border-radius: 5px;
 /* section notes */
 .notes{
     height: 448px;
-    background-color: white;
+    background-color: #f7f6f6;
     padding-left: 120px;
     padding-right: 120px;
     padding-bottom: 120px;
-    /* margin-left: 120px; */
+    
+    
     
 }
 .notetext{
 text-align: center;
+font-size: 24px;
+padding-top: 20px;
+
 }
 .card{
     height: 300px;
@@ -104,40 +108,45 @@ text-align: center;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    border: 10px solid white;
-    box-shadow: inset;
+
+    
    
 }
 .card1{
     width: 340px;
     height: 300px;
-    border: 1px solid rgb(238, 233, 233);
-    border-radius: round;
+    border-radius: 5px ;
      text-align: center;
+     background-color: white;
+    box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.1);
 }
 .card2{
     width: 340px;
     height: 300px;
     border: 1px solid rgb(238, 233, 233);
-    border-radius: round;
+   border-radius: 5px ;
      text-align: center;
+     background-color: white;
+    box-shadow:0px 10px 20px -12px rgba(184, 176, 176, 0.1) ;
 
 }
 .card3{
     width: 340px;
     height: 300px;
     border: 1px solid rgb(238, 233, 233);
-    border-radius: round;
+    border-radius: 5px ;
      text-align: center;
-    
+    background-color: white;
+    box-shadow:0px 10px 20px -12px rgba(184, 176, 176, 0.1) ;
 }
 .card4{
     width: 340px;
     height: 300px;
     text-align: center;
     border: 1px solid rgb(238, 233, 233);
-    border-radius: round;
-    
+    border-radius: 5px ;
+    background-color: white;
+    box-shadow:0px 10px 20px -12px rgba(184, 176, 176, 0.1) ;
 }
 .ichon{
     height: 40px;
@@ -151,3 +160,50 @@ text-align: center;
 .ichon img{
     text-align: justify;
 }
+.brain{
+    height: 838px;
+    padding: 120px;
+    border: 2px solid skyblue;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 40px;
+}
+.brain-image{
+    height: 600px;
+    width: 600px;
+    background-color: aliceblue;
+}
+.brain-content{
+    width: 700px;
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.solution{
+    height: 228px;
+    width: 700px;
+   
+}
+h4{
+    color: green;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+.h2{
+    font-size: 24px;
+    text-transform: capitalize;
+
+}
+.solution-list{
+    height: 128px;
+    width: 700px;
+    
+    font-size: x-small;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+} 
+
+

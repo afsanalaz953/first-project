@@ -32,8 +32,11 @@ header{
    font-size: 16px;
    /* text-align: left; */
    gap: 16px;
-  
-
+   cursor: pointer;
+}
+.menubtn:hover{
+    background-color: white;
+    color: black;
 }
 nav{
     height: 92px;;
@@ -96,6 +99,11 @@ height: 52px;
     width: 229px;
     border-radius: 20px;
     color: green;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
 }
 .text{
     color: white;
@@ -116,6 +124,11 @@ height: 52px;
     height: 52px;
 color: white;
 border-radius: 5px;
+cursor: pointer;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
 }
 .btn3{
     width: 180px;
@@ -125,6 +138,11 @@ border-radius: 5px;
    border-radius: 5px solid white;
    background-color: rgb(59, 59, 63); 
    opacity: 100%;
+   cursor: pointer;
+}
+.btn3:hover{
+    background-color: white;
+    color: black;
 }
 /* section notes */
 .notes{
@@ -282,7 +300,12 @@ gap: 16px;
     background-color: green;
     border-radius: 10px;
     color: white;
+    cursor: pointer;
     
+}
+.ready-button button:hover{
+    background-color: white;
+    color: black;
 }
 .ready-button p{
     width: 1280px;

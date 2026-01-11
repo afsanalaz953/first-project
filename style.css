@@ -1,11 +1,21 @@
-
-header{
+ *{
+    max-width: 1600px;
+} 
+.layout{
+    color: blue;
     width: 1600px;
+    height: 2908px;
+    max-width: 1600px;
+
+}
+header{
+    width: 1363px;
     height: 674px;
     display: flex;
     justify-content: center;
-    align-items: center; 
-    border: 2px solid skyblue;
+    align-items: center;
+     background: url(../assets/hero-bg.png);
+    padding: 70px 120px 134px 120px;
 }    
 .font family inter> {
   font-family: "Inter", sans-serif;
@@ -13,32 +23,43 @@ header{
   
 }
 .menubtn{
-   width: 133px;
-   height: 23px;
+   width: 164px;
+   height: 44px;
    border-radius: 5px;
    background-color: green;
    font-family: inter;
    color: white;
-   font-size: 30px;
-   text-align: left;
+   font-size: 16px;
+   /* text-align: left; */
+   gap: 16px;
+  
 
 }
 nav{
-    height: auto;
+    height: 92px;;
     width: 1600px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-   
- 
+    align-items: center; 
+    margin-top: 20px; 
+    gap: 346px;
+    padding: 16px 120px 16px 120px; 
+  border: 2px solid red;
 }
+
+
 .menu{
     display: flex;
    list-style: none;
      gap: 34px; 
      justify-items: center;  
+}
+.banner-image{
+    width: 2042px;
+    height: 1363px;
+   
+      
 }
 div .banner-content{
     display: flex;
@@ -46,8 +67,29 @@ div .banner-content{
     align-items: center;
     width: 1360px;
     height: 379px;
+    flex-direction: column;
+    text-align: center;
+  
  
     /* border: 2px solid red; */
+}
+.banner-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 1360px;
+height: 295px;
+  text-align: center;
+}
+.banner-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 465px;
+height: 52px;
+  text-align: center;
 }
 .btn1{
     height:35px ;

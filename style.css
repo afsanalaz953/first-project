@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(assets/hero-bg.png);
+    background: url('assets/hero-bg.png');
     padding: 70px 120px 134px 120px;
 }    
 .font family inter> {

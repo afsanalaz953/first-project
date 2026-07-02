@@ -45,7 +45,7 @@ header{
 }
 nav{
     height: 92px;;
-    width: 1600px;
+    width: 1360px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -157,8 +157,8 @@ cursor: pointer;
     padding-right: 120px;
     padding-bottom: 120px;
     margin: 10px;
-    
-    
+      max-width:1360px ; 
+      margin: 0 auto;
     
 }
 .notetext{
@@ -170,18 +170,18 @@ margin-bottom: 20px;
 }
 .card{
     height: 300px;
-    max-width:1360px ;
+   
     display: grid;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     margin: 20px;
     padding: 4px; 
     margin: 0 auto;
 grid-template-columns: repeat(4, 1fr);
 }
 .card1{
-    width: 340px;
+    width: 250px;
     height: 300px;
     border-radius: 5px ;
      text-align: center;
